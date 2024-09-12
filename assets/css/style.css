@@ -26,6 +26,7 @@ a {
 .header {
   background: #fcfcfc;
 }
+
 .header .body {
   display: flex;
   align-items: center;
@@ -300,4 +301,121 @@ a {
   font-size: 1rem;
   font-weight: 500;
   line-height: normal;
+}
+/* =============================features================== */
+.features {
+  width: 1024px;
+  height: 559px;
+}
+.features .body {
+  margin-top: 130px;
+}
+.features .feature-top span {
+  color: #767e7e;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.features .heading-lv2 {
+  margin: 18px 0 18px;
+  width: 577px;
+  height: 112px;
+  color: #0d1111;
+  font-size: 4.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.33; /* 133.333% */
+}
+.features .feature-top .desc {
+  margin-bottom: 80px;
+  width: 590px;
+  height: 54px;
+  color: #767e7e;
+  font-size: 1.8rem;
+  line-height: normal;
+}
+/* ---------------bottom--------- */
+.feature-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.feature-bottom .icon-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  height: 106px;
+  width: 102px;
+}
+.feature-bottom .item .item1 {
+  background: #ffc147;
+}
+.feature-bottom .item .item2 {
+  background: #ff947a;
+}
+.feature-bottom .item .item3 {
+  background: #bf83ff;
+}
+.feature-bottom .icon-item img {
+  width: 48px;
+  height: 48px;
+}
+.feature-bottom .heading-lv4 {
+  margin: 26px 0 16px;
+  color: #0d1111;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.feature-bottom .info .desc {
+  width: 223px;
+  height: 81px;
+  color: #9da6a5;
+  font-size: 1.6rem;
+  line-height: 1.69; /* 168.75% */
+}
+/* ===========================popular=================== */
+.popular {
+  margin-top: 130px;
+  height: 4493px;
+}
+.popular span {
+  color: #767e7e;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.popular .heading-lv2 {
+  width: 356px;
+  height: 63px;
+  color: #0d1111;
+  font-size: 4.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.popular .view-course {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 19px;
+  margin-bottom: 79;
+}
+.popular-top .desc {
+  width: 525px;
+  height: 64px;
+  color: #767e7e;
+  font-size: 1.8rem;
+  line-height: 1.78; /* 177.778% */
+}
+.popular-top .view-course a {
+  color: #1ebfc1;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration-line: underline;
 }
